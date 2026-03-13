@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@400;500;600;700&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width:thin;
+    font-family: "Poppins",sans-serif;
+}
+.nav-1{
+width: 100%;
+display: inline-flex;
+align-items: center;
+background:#001A6E;
+box-shadow: 0px 0px 10px 0px #001A6E;
+
+}
+.nav-1 img{
+    max-width: 150px;
+    margin-left: 5.6rem;
+}
+.nav-1 h1{
+   margin-left: 3rem;
+   color: white;
+
+}
+.nav-1 a{
+margin-left: 5.5rem;
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-weight: 500;
+transition: all ease 0.3s 0s;
+}
+.nav-1 a:hover{
+    color: #D4EBF8;
+    transform: scale(0.95);
+    text-shadow: 0 0 8px #D4EBF8;
+                
+}
+
+.m-1 .m-2 .m-3 h2{
+    text-align: center;
+    margin-top: 6rem;
+}
+.m-1 .m-2 .m-3 h3{
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid black;
+    width: 26%;
+    border-radius: 5px;
+    margin: 15px auto;
+    margin-top: 2.3rem;
+}
+.a-1 .a-2 .a-3{
+margin-top: 2rem;
+display: inline-flex;
+margin-left: 18rem;
+}
+.a-1 .a-2 .a-3 h2{
+border: 1px solid black;
+border-radius: 5px;
+width: 210px;
+margin: 10px;
+text-align: center;
+}
+.a-1 .a-2 .a-3 h2 a{
+    text-decoration: none;
+}
+.a-a0 .a-a1 .a-a2{
+    display: inline-flex;
+    margin-left: 18rem;
+}
+.a-a0 .a-a1 .a-a2 h2{
+ border: 1px solid black;
+border-radius: 5px;
+width: 210px;
+margin: 10px;
+text-align: center;
+}
+.a-a0 .a-a1 .a-a2 h2 a{
+    text-decoration: none;
+}
+
+.back-1 a {
+   text-decoration:underline;
+   margin: 10px ;
+   color: black;
+   font-size: larger;
+}
+.K-nwe{
+    display: inline-flex;
+    margin-left: 31rem;
+    margin-top: 1rem;
+}
+.K-nwe a{
+    text-decoration: none;
+}
+.K-nwe h2{
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius:5px;
+}
+.hr-1{
+    width: 120px;
+    margin-left: 35.5rem;
+    border-radius: 5px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+}
+.h1-1{
+    text-align: center;
+    margin-top: 6rem;
+    color: #2f75fd;
+}
+.contact-1 img{
+    max-width: 500px;
+    margin-right: 11rem;
+}
+.contact-1{
+    display: inline-flex;
+    align-items: center;
+}
+.contact-1 .contact-2 .contact-3 form input  {
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+}
+.contact-1 .contact-2 .contact-3 form textarea{
+    margin: 10px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.contact-1 .contact-2 .contact-3 .submit{
+    border: none;
+    background: none;
+    border: 1px solid black;
+}
+.f-1 img{
+max-width: 100px;
+margin-left: 10px;
+}
+.f-1{
+    background-color: #001A6E;
+    margin-top: 10rem;
+    border-radius: 24px 24px 0px 0px;
+    box-shadow:0px 0px 10px 0px #001A6E;
+}
+.f-1 a{
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 10rem;
+    color: white;
+}
+.f-1 a:hover{
+    color: #D4EBF8;
+    text-decoration: underline;
+    transition: all ease 0.3s 0s;
+}
+.f-1 h2{
+    display: inline-flex;
+    margin-left: 6.6rem;
+    color: white;
+}
+.tabat-1{
+text-align: center;
+}
+.tabat-2{
+text-align: center;
+border: 1px solid black;
+width: 80%;
+margin-left: 7rem;
+border-radius: 5px;
+margin-top: 1rem;
+}
+.tabat-3 {
+text-align: center;
+margin-top: 2rem;
+}
+.t-3 .tabat-3{
+    border: 1px solid black;
+    border-radius: 5px ;
+    margin-left: 5rem;
+    padding: 10px;
+    display:inline-flex;
+}
+.fines-1 {
+    text-align: center;
+    border: 1px solid black;
+    width: 36%;
+    border-radius: 5px;
+    margin: 0  auto;
+    font-weight: 600;
+}
+.fines-2 a{
+text-decoration: none;
+}
+.fines-2{
+    width: 32%;
+    border: 1px solid black;
+    background: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-left: 27rem;
+}
+.ol-1{
+    font-size: larger;
+    font-weight: 600;
+    margin-right: 3rem;
+}

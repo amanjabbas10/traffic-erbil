@@ -19,11 +19,16 @@ import Mator from "./Component/mator.jsx";
 import Katemator from "./Component/katemator.jsx";
 import Nwemator from "./Component/nwemator.jsx";
 import "./style/style.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Navigate,
+  Route,
+  Routes,
+} from "react-router-dom";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Navbar />} />
           <Route path="/tabat" element={<Tabat />} />
@@ -44,6 +49,7 @@ function App() {
           <Route path="/mator" element={<Mator />} />
           <Route path="/katemator" element={<Katemator />} />
           <Route path="/nwemator" element={<Nwemator />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>
     </div>
